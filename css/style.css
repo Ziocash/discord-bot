@@ -1,0 +1,188 @@
+html {
+    font-family: "Font Awesome", "Arial", sans-serif;
+    font-size: 14.5px;
+}
+
+input {
+    font-family: "Font Awesome", "Arial", sans-serif;
+    font-size: 14.5px;
+}
+
+i {
+    font-size: 25px;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: green;
+    color: white;
+}
+
+body {
+    background: #f7f7f7;
+}
+
+.main-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    padding: 32px 24px;
+    margin: 32px auto;
+    max-width: 900px;
+    transition: background 0.3s;
+}
+
+body.dark-mode {
+    background: #181a1b;
+}
+body.dark-mode a:link, body.dark-mode a:visited {
+    background-color: #222;
+    color: #e0e0e0;
+    border-color: #e0e0e0;
+}
+body.dark-mode a:hover, body.dark-mode a:active {
+    background-color: #2e7d32;
+    color: #fff;
+}
+body.dark-mode .tg td,
+body.dark-mode .tg th {
+    border-color: #e0e0e0;
+    background: #23272a;
+    color: #e0e0e0;
+}
+body.dark-mode .tg tr:hover td {
+    background-color: #333c3c;
+}
+body.dark-mode #prg_container {
+    background: #23272a!important;
+}
+body.dark-mode #prg_progress {
+    background: #388e3c!important;
+}
+
+body.dark-mode .main-card {
+    background: #23272a;
+}
+
+#toggle-theme {
+    border-radius: 50%;
+    border: none;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    width: 44px;
+    height: 44px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+body.dark-mode #toggle-theme {
+    background: #23272a;
+    color: #e0e0e0;
+}
+
+#prg_container {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+
+#prg_progress {
+    border-radius: 12px 0 0 12px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.10) inset;
+    transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tg {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    margin-bottom: 24px;
+}
+
+.tg tr:hover td {
+    background-color: #e0ffe0;
+    transition: background 0.2s;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    background: #f1f1f1;
+    padding: 16px 0 8px 0;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 32px;
+    letter-spacing: 0.5px;
+}
+
+body.dark-mode footer {
+    background: #23272a;
+    color: #aaa;
+    border-top: 1px solid #333;
+}
+
+body.dark-mode, 
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode h3, 
+body.dark-mode h4, 
+body.dark-mode h5, 
+body.dark-mode h6, 
+body.dark-mode p, 
+body.dark-mode ul, 
+body.dark-mode li, 
+body.dark-mode span, 
+body.dark-mode div, 
+body.dark-mode .innertext {
+    color: #e0e0e0 !important;
+}
+
+header {
+    text-align: center;
+}
+
+header a {
+    display: inline-block;
+    margin: 12px auto 0 auto;
+}
+
+header a p {
+    margin: 0;
+    text-align: center;
+}
+
+.community-section {
+    text-align: center;
+}
+
+.community-section a {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.community-section p {
+    margin: 8px 0 0 0;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .main-card {
+        padding: 10px 2vw;
+    }
+    .tg, .tg th, .tg td {
+        font-size: 12px;
+    }
+    .tg {
+        overflow-x: auto;
+        display: block;
+    }
+}

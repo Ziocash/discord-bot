@@ -1,0 +1,114 @@
+#prg_container
+{
+	height: 24px;
+    color: #000!important; 
+	background-color: #f1f1f1!important;
+}
+
+#prg_progress
+{
+	height: 24px;
+	color: #fff!important;
+	background-color: green!important;
+	margin: 0;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#lbl_percentage
+{
+	width: 100%;
+	text-align: center!important;
+	margin: 0;
+	padding: 0;
+	color: #fff !important;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+body.dark-mode #lbl_percentage {
+    color: #fff !important;
+}
+
+.innertext
+{
+	margin-top: 3px;
+	margin-bottom: 0px;
+}
+
+.tg  
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.tg td
+{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 10px 5px;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	word-break: normal;
+	border-color: black;
+}
+
+.tg th
+{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px 5px;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	word-break: normal;
+	border-color: black;
+}
+
+.tg .tg-klww
+{
+	font-weight: bold;
+	font-style: italic;
+	border-color: inherit;
+	vertical-align: top;
+}
+
+.tg .tg-8m2u
+{ 
+	font-weight: bold;
+	border-color: inherit;
+}
+
+.tg .tg-yfvh
+{
+	font-weight: bold;
+	font-style: italic;
+	vertical-align: top;
+}
+
+.tg .tg-p8bj
+{
+	font-weight: bold;
+	border-color: inherit;
+	vertical-align: top;
+}
+
+.tg .tg-9hbo
+{
+	font-weight: bold;
+	vertical-align: top;
+}
+
+.tg .tg-jogk
+{
+	font-style: italic;
+	vertical-align: top;
+}
+
+.tg .tg-yw4l
+{
+	vertical-align: top;
+}
